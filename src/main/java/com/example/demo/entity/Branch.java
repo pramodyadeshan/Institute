@@ -12,7 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 
 //Branches Entity
-public class Branches implements Serializable
+public class Branch implements Serializable
 {
     //Create table columns
     @Id

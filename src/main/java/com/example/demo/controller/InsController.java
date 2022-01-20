@@ -4,7 +4,7 @@ import com.example.demo.dto.Insdto;
 import com.example.demo.entity.Teacher;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.example.demo.repositry.BranchesRepositry;
+import com.example.demo.repositry.BranchRepositry;
 import com.example.demo.repositry.TeacherRepositry;
 
 import java.util.List;
@@ -19,7 +19,7 @@ public class InsController
     private TeacherRepositry teacherRepositry;
 
     @Autowired
-    private BranchesRepositry branchesRepositry;
+    private BranchRepositry branchesRepositry;
 
     //Save Data
     @PostMapping("/saveData")
